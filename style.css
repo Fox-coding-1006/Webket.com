@@ -1,0 +1,183 @@
+@charset "utf-8";
+body{
+    background-image: url(26284.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px;
+    padding: 0px;
+    font-family: 'Potta One', cursive;
+    scroll-behavior: smooth;
+    font-family: 'Architects Daughter', cursive;
+   
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    width: 100%;
+    height: 110vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px  30px rgba(0, 0,0, 0.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(2, 28, 85, 0);
+}
+nav ul li{
+    display: inline-flex;
+}
+nav ul li a{
+    height: 43px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: inline-flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgb(35, 176, 231);
+    letter-spacing: 2px;
+    border-radius: 5px;
+    
+}
+
+nav ul li a:hover{
+    background-color: rgba(2, 17, 102, 0.267);
+    color: rgb(0, 204, 255);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: 1.2s;
+}
+nav ul li a .fa{
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.logo img:hover{
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background: linear-gradient(#00063b,#01094b);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#0676d1,transparent,#ff0000,#0066ff);
+    box-shadow: 0 0  200 #fff, 0 0 300 #fff, 0 0 400 #fff, 0 0 500 #fff;
+    border-radius: 5px;
+}
+.header{
+    margin-top: 150px;
+
+}
+.header .text{
+    margin-left: 150px;
+
+}
+.header .text .log{
+   
+        font-size: 62px;
+        background: -webkit-linear-gradient( rgb(0, 30, 94) 40%,rgb(255, 0, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 900;
+        margin-left: 400px;
+      
+}
+.header .text p{
+    color: #005eca;
+    font-size: 23px;
+    font-weight: bold;
+}
+.header .text .boy{
+    color: rgb(0, 158, 231);
+    font-size: 23px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.header .text .pure{
+    color: rgb(0, 225, 255);
+    margin-left: 500px;
+    margin-top: -20px;
+}
+.header .image{
+    float: right;
+    margin-right: 30px;
+    margin-top: -230px;
+}
+.header .log span{
+    color: #f33900;
+}
+.pure h1 span{
+    color: #ff0000;
+}
+.text{
+    background: rgba(0, 0, 0, 0.157);
+    
+    border-radius: 5%;
+    margin-left: 100px;
+}
+.social {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    list-style: none;
+}
+.social li{
+    margin-left: 10px;
+    margin-top: 37px;
+}
+.social .fa{
+    font-size: 20px;
+}
+.social .fa-youtube-play{
+    color: red;
+}
+.social .fa-codepen{
+    color: rgb(255, 255, 255);
+}
+.social .fa-github{
+    color: grey;
+}
+.up{
+    float: right;
+    position: fixed;
+    padding: 20px 20px;
+    background: rgba(179, 0, 0, 0.479);
+    float: right;
+    margin-left: 90%;
+    color: rgb(0, 9, 94);
+}
+#Services{
+    width: 100%;
+    height: 500px;
+    background: url(4306314.jpg);
+    background-size: cover;
+}
+#Services .grid{
+    width: 200px;
+    height: 400px;
+    display: inline-flex;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+#Services .grid img{
+    width: 200px;
+    height: 100px;
+}
+#Services  .one h1{
+    margin-right: 100px;
+    margin-bottom: 100px;
+    color: red;
+}
